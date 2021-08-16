@@ -1,0 +1,149 @@
+html {
+    font-size: 62.5%;
+}
+
+.navDiv {
+    background: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar {
+    background: black!important;
+    
+}
+.nav-link {
+     color: white;
+     font-size: 1.8rem;
+}
+.nav-link:hover {
+    color: rgb(232, 108, 6);
+}
+
+.landingDiv {
+    position: relative;
+    margin-top: 6rem;
+  
+}
+.landingImg {
+    width: 100%;
+    object-fit: cover;
+}
+.imageSource{
+    color: rgb(245,131,53);
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.4rem;
+}
+.title {
+    position: absolute;
+    font-size: 8rem;
+    color: rgb(14, 100, 14);
+    color: white;
+    text-shadow: 4px 4px 6px rgb(11, 78, 11);
+    font-weight: 400;
+    bottom: 25%;
+    left: 15%;
+}
+
+.aboutContainer {
+    position: relative;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+    background-image: linear-gradient(to top, #d9e4ee 0%, white 100%);
+}
+.aboutContainer p {
+    text-align: justify;
+}
+
+.portraitDiv {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.portrait {
+    height: 20rem;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #bfdbc4 120%);
+    padding: 2rem;
+    box-shadow: 4px 4px 6px rgb(14, 78, 14);
+    margin-bottom: 2rem;
+    border-radius: 30%;
+    
+}
+
+div.contactMe {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+}
+div.contactMe img {
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #bfdbc4 120%);
+    padding: 1rem;
+    box-shadow: 4px 4px 6px rgb(14, 78, 14);
+    border-radius: 20%;
+}
+div.contactMe img:hover {
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #e4b660 120%);
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.portfolioContainer {
+    background-image: linear-gradient(to bottom, #d9e4ee 0%, white 100%);
+}
+
+.cardContainer {
+    display: flex;  
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-bottom: 10rem;
+}
+
+.card {
+    margin: 1%;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* line-height: 2.5rem; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.3rem;
+
+
+}
+.social {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.social a {
+    padding: 6rem;
+}
+
+.logo:hover {
+    background-color: rgb(255, 153, 0);
+}
