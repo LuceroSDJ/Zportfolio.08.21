@@ -100,9 +100,10 @@ h1 {
     padding-bottom: 2rem;
 }
 
-
-
-
+.aboutText{
+    /* visibility: hidden; */
+    display: none;
+}
 
 /* PORTFOLIO */
 .card-title {
