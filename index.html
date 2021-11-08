@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
 </head>
 <body>
    
 <div class="navDiv">
     <nav class="navbar navbar-dark bg-dark container navbarToggle">
-        <a class="navbar-brand" href="#">
+        <!-- <a class="navbar-brand" href="#">
           <img src="./images/programming_icon.png" alt="programming icon">
+        </a> -->
+        <a>
+            <p class="nav-link" href="#about">Carmen Lucero</p>
         </a>
     
         <ul class="nav justify-content-end">
@@ -34,10 +41,13 @@
 </div>
 
 <div class="landingDiv">
-    <img class="landingImg" src="./images/officeDesk.jpg" class="d-block w-100" alt="office desk with a laptop, coffee, and office supplies">
+    <img class="landingImg" src="./images/desk.jpg" class="d-block w-100" alt="office desk with a laptop, coffee, and office supplies">
 
     <h1 class="title">Web Developer</h1>
-    <a  class="imageSource" href="https://pngtree.com/free-backgrounds">free background photos from Pngtree.com</a>
+    
+    <!-- <a  class="imageSource" href="https://pngtree.com/free-backgrounds">free background photos from Pngtree.com</a> -->
+    <a class="photoCredit" href="https://unsplash.com/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo by James Harrison on Unsplash</a></p>
+  
 </div>
 
 
@@ -46,20 +56,22 @@
         <h1>About Me</h1>
         <div class="portraitDiv">
             <img class="portrait" src="./images/portrait.png">
-         </div> 
-         <div class="aboutText">
-             <h2>Hello, world! My name is Carmen Lucero.</h2>
-             <h3>I am a highly motivated web developer based in Austin, Texas.</h3>
-             <p>I have embarked in the journey of changing careers, and I have fallen in love with the great variety of technologies and resources available for driven individuals like me. 
-                My background is in social work and customers relations. Therefore, I posses a particular set of transferrable skills including problem-solving, leadership, teamwork, and high sense of responsibility.</p>
-             <p>I am proficient in HTML, CSS, and JavaScript. In addition, I enjoy exploring new frameworks and libraries such as jQuery, React, node.js, and mySQL. I welcome the type of challenge that makes me grow as a web developer, and I would love to have the opportunity to master the technologies specific to your team. </p>
-         </div>
+        </div> 
+        <div class="aboutText">
+            <h2>Hello, world! My name is Carmen Lucero.</h2>
+            <h3>I am a highly motivated web developer based in Austin, Texas.</h3>
+            <p>I have embarked in the journey of changing careers, and I have fallen in love with the great variety of technologies and resources available for driven individuals like me. 
+                My background is in social work and customers relations. Therefore, I posses a particular set of transferrable skills including problem-solving, leadership, teamwork, and a high sense of responsibility.</p>
+            <p>In addition, I am proficient in HTML, CSS, and JavaScript. As a lifelong learner, I also enjoy exploring new frameworks and libraries such as jQuery, React, node.js, and mySQL.</p>
+            <p>I welcome the type of challenge that makes me grow as a web developer, and I would love to have the opportunity to master the technologies specific to your team. </p>
+        </div>
 
         <div class="contactMe">
             <p>I invite you to further discuss my qualifications with you. </p>
             <p>I look forward to hearing from you.</p>
             <a href="mailto:lucero.atx1@gmail.com?subject=Job%20Opportunity"> 
-                <img src="./images/email_icon.png"  class="contactEmail">
+                <!-- <img src="./images/email_icon.png"  class="contactEmail"> -->
+                <i class="fas fa-envelope logo contactEmail"></i>
             </a>
             <span class="sr-only">new email form (opens in a new window) </span>
         </div>
@@ -72,7 +84,7 @@
 <div class="portfolioContainer" id="portfolio">
     <h1>Portfolio</h1>
     <div class="cardContainer">
-        <div class="card" style="width: 25%;">
+        <div class="card" style="width: 30%;">
             <img src="./images/jquery_ajax.jpeg" class="card-img-top" alt="jQuery logo">
             <div class="card-body">
                 <h5 class="card-title">Dynamic Game</h5>
@@ -87,7 +99,7 @@
             </div>
         </div>
 
-        <div class="card" style="width: 25%;">
+        <!-- <div class="card" style="width: 25%;">
             <img src="./images/giphy-logo.png" class="card-img-top" alt="giphy api logo">
             <div class="card-body">
                 <h5 class="card-title">Giphy Api</h5>
@@ -101,9 +113,9 @@
                 <span class="sr-only">project landing page (opens in a new tab)</span>
                 
             </div>
-        </div>
+        </div> -->
 
-        <div class="card" style="width: 25%;">
+        <div class="card" style="width: 30%;">
             <img src="./images/node_mysql.png" class="card-img-top" alt="node and mySQL logos">
             <div class="card-body">
                 <h5 class="card-title">CLI App</h5>
@@ -118,7 +130,7 @@
             </div>
         </div>
 
-        <div class="card" style="width: 25%;">
+        <div class="card" style="width: 30%;">
             <img src="./images/react-logo.png" class="card-img-top" alt="react.js logo">
             <div class="card-body">
                 <h5 class="card-title">React.js Notes App</h5>
@@ -139,14 +151,16 @@
     <ul class="social">
         <li>
             <a href="https://www.linkedin.com/in/lucero-sandoval-38161b174" target="_blank" rel="noopener noreferrer" class="logoLink" >
-                <img src="./images/linkedin_icon.png" alt="clickable linkedIn logo icon" class="logo"></img>
+                <!-- <img src="./images/linkedin_icon.png" alt="clickable linkedIn logo icon" class="logo"></img> -->
+                <i class="fab fa-linkedin-in logo"></i>
             </a>
             <span class="sr-only">linkedIn portfolio (opens in a new tab)</span>
         </li>
 
         <li>
             <a href="mailto:lucero.atx1@gmail.com?subject=Job%20Opportunity" target="_blank" rel="noopener noreferrer" class="logoLink" >
-                <img src="./images/email_icon.png" alt="clickable email icon" class="logo"></img>
+                <!-- <img src="./images/email_icon.png" alt="clickable email icon" class="logo"></img> -->
+                <i class="fas fa-envelope logo"></i>
             </a>
             <span class="sr-only">new email form (opens in a new window)</span>
         </li>
@@ -154,16 +168,14 @@
         <li>
             <a href="https://github.com/LuceroSDJ" target="_blank" rel="noopener noreferrer" class="logoLink" >
                 <!-- <i class="fab fa-github-alt" title="github"></i> -->
-                <img src="./images/github_icon.png" alt="clickable github logo icon" class="logo"></img>
+                <!-- <img src="./images/github_icon.png" alt="clickable github logo icon" class="logo"></img> -->
+                <i class="fab fa-github-alt logo"></i>
             </a>
             <span class="sr-only">github portfolio (opens in a new tab)</span>
         </li>
-
-       
-
-        
     </ul>
     <p class="endNote"><small>Portfolio. 2021</small></p>
+    
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

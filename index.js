@@ -8,8 +8,12 @@ $(window).scroll(function() {
       transform: 'translate3d(0, +'+(scroll/100)+'%, 0) scale('+(100 - scroll/40)/75+')'  
     });
     $(".aboutText").fadeIn();
+
+   
   });
 
   $(".aboutLink").on("click", function() {
     $(".aboutText").fadeIn("slow");
   })
+
+
